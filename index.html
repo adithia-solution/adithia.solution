@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD. Adithia Solution - Solusi Kreatif & Teknologi Terpercaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #063d7e 0%, #0a4d8a 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .animate-fade-in { animation: fadeIn 0.8s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .service-icon { transition: all 0.3s ease; }
+        .service-card:hover .service-icon { transform: scale(1.1); color: #667eea; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img src="https://adithia-solution.github.io/adithia.solution/logo.png" alt="UD. Adithia Solution Logo" class="h-10 w-10 mr-3">
+                        <h1 class="text-2xl font-bold text-blue-900">UD. Adithia Solution</h1>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Beranda</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Tentang</a>
+                        <a href="#services" class="nav-link text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Layanan</a>
+                        <a href="#contact" class="nav-link text-gray-700 hover:text-blue-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Kontak</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-900">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-blue-900">Beranda</a>
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:text-blue-900">Tentang</a>
+                <a href="#services" class="block px-3 py-2 text-gray-700 hover:text-blue-900">Layanan</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-blue-900">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center animate-fade-in">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">UD. Adithia Solution</h1>
+                <p class="text-xl md:text-2xl mb-8 opacity-90">Solusi Kreatif & Teknologi Terpercaya</p>
+                <p class="text-lg mb-10 max-w-3xl mx-auto opacity-80">Mitra terpercaya untuk layanan desain grafis, branding, percetakan, IT support, dan solusi teknologi yang inovatif</p>
+                <div class="space-x-4">
+                    <a href="#services" class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block">Lihat Layanan</a>
+                    <a href="#contact" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors inline-block">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tentang Kami</h2>
+                <div class="w-24 h-1 bg-blue-900 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Sejarah Perusahaan</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        UD. Adithia Solution didirikan pada 25 Juni 2025 oleh Alif Adithia, berangkat dari pengalaman dan ketertarikannya terhadap dunia teknologi dan desain sejak masa sekolah. Usaha ini berkembang dari sebuah inisiatif pribadi menjadi layanan profesional yang mengintegrasikan berbagai bidang.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Dengan dedikasi terhadap kualitas, inovasi, dan pelayanan, UD. Adithia Solution telah menjadi mitra bagi masyarakat, UMKM, organisasi, hingga institusi yang membutuhkan solusi kreatif dan teknologi yang andal.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg p-8 text-white">
+                    <div class="text-center">
+                        <i class="fas fa-rocket text-4xl mb-4"></i>
+                        <h4 class="text-xl font-semibold mb-2">Didirikan</h4>
+                        <p class="text-2xl font-bold">25 Juni 2025</p>
+                        <p class="mt-4 opacity-90">Oleh Alif Adithia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 rounded-lg p-8 card-hover">
+                    <div class="text-center">
+                        <i class="fas fa-eye text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Visi Perusahaan</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            "Menjadi mitra solusi kreatif dan teknologi terpercaya yang membantu pelanggan berkembang melalui layanan desain, percetakan, dan dukungan IT yang profesional dan inovatif."
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-8 card-hover">
+                    <div class="text-center">
+                        <i class="fas fa-bullseye text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Misi Perusahaan</h3>
+                        <ul class="text-gray-600 text-left space-y-2">
+                            <li class="flex items-start"><i class="fas fa-check text-blue-900 mt-1 mr-2"></i>Layanan desain grafis dan branding yang kreatif</li>
+                            <li class="flex items-start"><i class="fas fa-check text-blue-900 mt-1 mr-2"></i>Jasa percetakan berkualitas tinggi</li>
+                            <li class="flex items-start"><i class="fas fa-check text-blue-900 mt-1 mr-2"></i>Dukungan IT dan perbaikan perangkat</li>
+                            <li class="flex items-start"><i class="fas fa-check text-blue-900 mt-1 mr-2"></i>Solusi jaringan dan infrastruktur IT</li>
+                            <li class="flex items-start"><i class="fas fa-check text-blue-900 mt-1 mr-2"></i>Pelayanan responsif dan profesional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Layanan Kami</h2>
+                <div class="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Kami menyediakan berbagai layanan profesional untuk memenuhi kebutuhan kreatif dan teknologi Anda</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-palette text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Desain Grafis</h3>
+                        <p class="text-gray-600">Layanan desain grafis profesional untuk berbagai kebutuhan visual dan komunikasi brand Anda</p>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-trademark text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Branding & Identitas</h3>
+                        <p class="text-gray-600">Membangun identitas brand yang kuat dan memorable untuk bisnis Anda</p>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-print text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Percetakan</h3>
+                        <p class="text-gray-600">Layanan percetakan digital dan offset berkualitas tinggi dengan hasil presisi</p>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-headset text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">IT Support</h3>
+                        <p class="text-gray-600">Dukungan teknis IT dan maintenance sistem untuk kelancaran operasional bisnis</p>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-laptop text-4xl text-blue-900 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Service Perangkat</h3>
+                        <p class="text-gray-600">Perbaikan dan maintenance laptop, PC, dan perangkat IT lainnya</p>
+                    </div>
+                </div>
+
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center">
+                        <i class="service-icon fas fa-network-wired text-4xl text-indigo-600 mb-4"></i>
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Instalasi Jaringan</h3>
+                        <p class="text-gray-600">Instalasi dan konfigurasi jaringan yang stabil dan aman untuk kebutuhan bisnis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Market Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Target Pasar Kami</h2>
+                <div class="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Kami melayani berbagai segmen pasar dengan solusi yang disesuaikan dengan kebutuhan masing-masing</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-users text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">Masyarakat Umum</h3>
+                </div>
+                <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-store text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">UMKM & Pelaku Usaha</h3>
+                </div>
+                <div class="bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-handshake text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">Organisasi & Komunitas</h3>
+                </div>
+                <div class="bg-gradient-to-br from-orange-500 to-red-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-graduation-cap text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">Instansi Pendidikan</h3>
+                </div>
+                <div class="bg-gradient-to-br from-yellow-500 to-orange-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-landmark text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">Instansi Pemerintahan</h3>
+                </div>
+                <div class="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg p-6 text-white text-center card-hover">
+                    <i class="fas fa-building text-3xl mb-4"></i>
+                    <h3 class="text-lg font-semibold">Perusahaan Swasta</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Hubungi Kami</h2>
+                <div class="w-24 h-1 bg-blue-900 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">Siap membantu mewujudkan kebutuhan kreatif dan teknologi Anda. Hubungi kami sekarang!</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-8">Informasi Kontak</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-indigo-600 text-xl mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Alamat</h4>
+                                <p class="text-gray-600">Jl. Pertahanan Gg. Lembayung, Patumbak I, Kec. Patumbak, Kab. Deli Serdang - Sumatera Utara, 20361</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-phone text-indigo-600 text-xl mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Telepon/WhatsApp</h4>
+                                <a href="https://wa.me/6285830051389" class="text-indigo-600 hover:text-indigo-800">085830051389</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-indigo-600 text-xl mt-1 mr-4"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Email</h4>
+                                <a href="mailto:adithia.solution@gmail.com" class="text-indigo-600 hover:text-indigo-800">adithia.solution@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h4 class="font-semibold text-gray-900 mb-4">Media Sosial</h4>
+                        <div class="flex flex-wrap gap-3">
+                            <a href="https://instagram.com/adithia.solution" class="bg-pink-500 text-white p-3 rounded-full hover:bg-pink-600 transition-colors">
+                                <i class="fab fa-instagram text-xl"></i>
+                            </a>
+                            <a href="https://tiktok.com/@adithia.solution" class="bg-black text-white p-3 rounded-full hover:bg-gray-800 transition-colors">
+                                <i class="fab fa-tiktok text-xl"></i>
+                            </a>
+                            <a href="https://facebook.com/adithia.solution" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors">
+                                <i class="fab fa-facebook-f text-xl"></i>
+                            </a>
+                            <a href="https://twitter.com/adithia_solution" class="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-colors">
+                                <i class="fab fa-twitter text-xl"></i>
+                            </a>
+                            <a href="https://linkedin.com/company/adithia-solution" class="bg-blue-700 text-white p-3 rounded-full hover:bg-blue-800 transition-colors">
+                                <i class="fab fa-linkedin-in text-xl"></i>
+                            </a>
+                            <a href="https://wa.me/6285830051389" class="bg-green-500 text-white p-3 rounded-full hover:bg-green-600 transition-colors">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <h3 class="text-xl font-bold text-gray-900 mb-6">Kirim Pesan</h3>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nama Lengkap</label>
+                            <input type="text" name="nama" id="nama" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                            <input type="email" name="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Masukkan email" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nomor WhatsApp</label>
+                            <input type="tel" name="whatsapp" id="whatsapp" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Contoh: 085830051389">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Layanan yang Dibutuhkan</label>
+                            <select name="layanan" id="layanan" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" required>
+                                <option value="">Pilih layanan</option>
+                                <option value="Desain Grafis">Desain Grafis</option>
+                                <option value="Branding & Identitas Usaha">Branding & Identitas Usaha</option>
+                                <option value="Percetakan">Percetakan</option>
+                                <option value="IT Support & Maintenance">IT Support & Maintenance</option>
+                                <option value="Service Perangkat IT">Service Perangkat IT</option>
+                                <option value="Instalasi Jaringan">Instalasi Jaringan</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Pesan</label>
+                            <textarea name="pesan" id="pesan" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Jelaskan kebutuhan Anda" required></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn" class="w-full bg-indigo-600 text-white py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
+                            <i class="fas fa-paper-plane mr-2"></i>Kirim Pesan
+                        </button>
+                    </form>
+                    
+                    <!-- Status Messages -->
+                    <div id="successMessage" class="mt-4 p-4 bg-green-50 rounded-lg hidden">
+                        <p class="text-sm text-green-800">
+                            <i class="fas fa-check-circle mr-2"></i>
+                            <strong>Berhasil!</strong> Pesan Anda telah terkirim dan tersimpan. Kami akan segera menghubungi Anda.
+                        </p>
+                    </div>
+                    
+                    <div id="errorMessage" class="mt-4 p-4 bg-red-50 rounded-lg hidden">
+                        <p class="text-sm text-red-800">
+                            <i class="fas fa-exclamation-circle mr-2"></i>
+                            <strong>Error:</strong> Terjadi kesalahan saat mengirim pesan. Silakan coba lagi atau hubungi kami via WhatsApp.
+                        </p>
+                    </div>
+                    
+                    <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+                        <p class="text-sm text-blue-800">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            <strong>Info:</strong> Pesan akan tersimpan di Google Sheets dan kami akan menghubungi Anda segera. Untuk respon lebih cepat, hubungi WhatsApp kami.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://adithia-solution.github.io/adithia.solution/logo.png" alt="UD. Adithia Solution Logo" class="h-8 w-8 mr-3">
+                        <h3 class="text-2xl font-bold">UD. Adithia Solution</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Solusi kreatif dan teknologi terpercaya untuk membantu bisnis Anda berkembang.</p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://instagram.com/adithia.solution" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://tiktok.com/@adithia.solution" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-tiktok text-xl"></i>
+                        </a>
+                        <a href="https://facebook.com/adithia.solution" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-xl"></i>
+                        </a>
+                        <a href="https://twitter.com/adithia_solution" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/adithia-solution" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in text-xl"></i>
+                        </a>
+                        <a href="https://wa.me/6285830051389" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Layanan</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Desain Grafis</li>
+                        <li>Branding & Identitas</li>
+                        <li>Percetakan</li>
+                        <li>IT Support</li>
+                        <li>Service Perangkat</li>
+                        <li>Instalasi Jaringan</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Kontak</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><i class="fas fa-phone mr-2"></i>085830051389</p>
+                        <p><i class="fab fa-whatsapp mr-2"></i><a href="https://wa.me/6285830051389" class="hover:text-white transition-colors">085830051389</a></p>
+                        <p><i class="fas fa-envelope mr-2"></i>adithia.solution@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt mr-2"></i>Deli Serdang, Sumatera Utara</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 UD. Adithia Solution. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Google Sheets Integration
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyG0wNzD45R9Zd3b1jWT6VspbZdnZblo2wmHe8OaYyvYexv1STvj8wNTgpFSLaG7K8A/exec';
+
+        // Handle form submission
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submitBtn');
+            const successMessage = document.getElementById('successMessage');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            // Hide previous messages
+            successMessage.classList.add('hidden');
+            errorMessage.classList.add('hidden');
+            
+            // Show loading state
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Mengirim...';
+            submitBtn.disabled = true;
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = {
+                nama: formData.get('nama'),
+                email: formData.get('email'),
+                whatsapp: formData.get('whatsapp'),
+                layanan: formData.get('layanan'),
+                pesan: formData.get('pesan'),
+                timestamp: new Date().toLocaleString('id-ID')
+            };
+            
+            try {
+                // Send to Google Sheets
+                const response = await fetch(GOOGLE_SCRIPT_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                // Show success message
+                successMessage.classList.remove('hidden');
+                
+                // Reset form
+                this.reset();
+                
+                // Also send to WhatsApp
+                const whatsappMessage = `Halo UD. Adithia Solution!%0A%0ANama: ${data.nama}%0AEmail: ${data.email}%0AWhatsApp: ${data.whatsapp}%0ALayanan: ${data.layanan}%0A%0APesan:%0A${data.pesan}`;
+                const whatsappUrl = `https://wa.me/6285830051389?text=${whatsappMessage}`;
+                
+                // Open WhatsApp after a short delay
+                setTimeout(() => {
+                    window.open(whatsappUrl, '_blank');
+                }, 1000);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                errorMessage.classList.remove('hidden');
+            } finally {
+                // Reset button
+                submitBtn.innerHTML = '<i class="fas fa-paper-plane mr-2"></i>Kirim Pesan';
+                submitBtn.disabled = false;
+            }
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'964a145104f671ba',t:'MTc1MzQyOTk2Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
